@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	 margin: 0;
+	 padding: 0;
+	 font-family: 'Roboto Condensed', sans-serif;
+} 
+
+.textColor {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}   
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 20px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	display: none;
+	text-align: center;
+	padding: 50px;
+}
+
+.buttonSection {
+	width: 40%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	font-family: inherit;
+	font-size: 15px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin: 10px;
+	border: none;
+	color: white;
+}
+
+#buttonShow {
+	background-color: green;
+}
+
+#buttonHide {
+	background-color: red;
+}

@@ -48,6 +48,7 @@ button {
 	margin: 10px;
 	border: none;
 	color: white;
+	cursor: pointer;
 }
 
 #buttonShow {
